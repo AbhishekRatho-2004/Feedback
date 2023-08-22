@@ -46,9 +46,9 @@ def feedbackform():
         emoji = get_sentiment_emoji(sentiment)
         col1,col2=st.columns(2) 
         with col1:   
-            st.write(f":blue[Sentiment:] {sentiment:.2f}")
+            st.subheader(f":blue[Sentiment:] {sentiment:.2f}")
         with col2:
-            st.write(f":blue[Emoji:] {emoji}")
+            st.subheader(f":blue[Emoji:] {emoji}")
         st.write(":blue[Emoji Slider:]")
         st.slider("Slider", min_value=-1.0, max_value=1.0, value=sentiment, step=0.01, format="%.2f")
 
