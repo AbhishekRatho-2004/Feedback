@@ -16,7 +16,6 @@ streamlit_chat==0.1.1
 streamlit_lottie==0.0.5
 streamlit_option_menu==0.3.6
 tensorflow==2.13.0
-tensorflow_intel==2.13.0
 textblob==0.17.1 
 yahooquery==2.3.2
 yfinance==0.2.27
